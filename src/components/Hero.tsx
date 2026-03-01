@@ -102,7 +102,7 @@ const Hero = () => {
 
   return (
     <section id="hero" ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div ref={splineRef} className="absolute inset-0 w-full h-full opacity-70">
+      <div ref={splineRef} className="absolute hidden lg:block inset-0 w-full h-full opacity-70">
         <iframe src="https://my.spline.design/genkubgreetingrobot-MW4W3iAFsJj5olFfT1MhN0TH/" frameBorder="0" width="100%" height="100%" className="w-full h-full" />
       </div>
 
