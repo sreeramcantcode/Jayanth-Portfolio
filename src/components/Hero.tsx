@@ -93,8 +93,8 @@ const Hero = () => {
 
   const downloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/Images/CodeZenith-Resume.pdf';
-    link.download = 'CodeZenith-Resume.pdf';
+    link.href = '/Images/Jayanth_resume.pdf';
+    link.download = 'Jayanth_resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -114,16 +114,16 @@ const Hero = () => {
         <h1 ref={titleRef} className="text-4xl md:text-6xl lg:text-7xl font-light text-foreground mb-6 leading-tight">
           Hi, I'm{' '}
           <span className="text-glow bg-gradient-primary bg-clip-text text-transparent">
-            CodeZenith
+            Jayanth
           </span>
           {' '}–{' '}
           <br className="hidden md:block" />
-          <span className="text-primary-glow">Full Stack Developer</span>
+          <span className="text-primary-glow">Product Manager</span>
         </h1>
 
         <p ref={subtitleRef} className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-          Full Stack Developer crafting modern, responsive web apps with clean UI and robust backend architecture
-        </p>
+          Product Manager focused on building thoughtful, scalable consumer products with clarity and impact.
+          </p>
 
         <div ref={ctaRef} className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button onClick={scrollToContact} className="group inline-flex items-center gap-3 px-8 py-4 bg-gradient-primary text-primary-foreground rounded-lg font-medium hover:shadow-glow-primary transition-all duration-300 hover:scale-105" size="lg">

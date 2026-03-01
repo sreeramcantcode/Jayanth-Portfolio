@@ -102,12 +102,13 @@ const Projects = () => {
     <section id="projects" ref={sectionRef} className="py-20 px-6 relative overflow-hidden">
       <div className="container mx-auto max-w-7xl">
         <div ref={titleRef} className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-light text-foreground mb-4">
+          <h2 className="text-3xl md:text-7xl font-light text-foreground mb-4">
             Featured <span className="text-primary-glow">Projects</span>
           </h2>
           <div className="w-20 h-1 bg-gradient-primary rounded-full mx-auto mb-6" />
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A curated collection of full stack projects demonstrating my expertise in building modern, scalable web applications — from intuitive frontends to robust backend systems.          </p>
+            A curated collection of product work focused on solving real user problems and turning insight into measurable impact..
+            </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

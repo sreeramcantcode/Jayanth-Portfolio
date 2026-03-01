@@ -71,7 +71,7 @@ const Footer = () => {
           <div>
 
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Building modern, high-performance web experiences through elegant design, clean code, and the latest technologies.
+              Building thoughtful, high-impact products through structured strategy, user insight and data-driven execution.
             </p>
             <div className="flex gap-4">
               <a href="" className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center hover:shadow-glow-primary transition-all duration-300 hover:scale-110">
@@ -104,13 +104,18 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-medium text-foreground mb-4">Get In Touch</h4>
             <div className="space-y-3">
-              <p className="text-muted-foreground">
+              <a href="mailto:jayanthallumolu@gmail.com" className="text-muted-foreground">
                 <span className="text-primary-glow">Email:</span><br />
-                codezenithhq@gmail.com
+                 jayanthallumolu@gmail.com
+              </a>
+              <p className="text-muted-foreground">
+                <span className="text-primary-glow">Phone:</span><br />
+                 +91 7207815313
               </p>
+
               <p className="text-muted-foreground">
                 <span className="text-primary-glow">Location:</span><br />
-                New York City, New York
+                Hyderabad, India
               </p>
             </div>
           </div>
@@ -118,7 +123,8 @@ const Footer = () => {
 
         <div className="border-t border-border/30 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-center md:text-left">
-            © 2025 CodeZenith. All rights reserved.
+            © 2025 Jayanth. All rights reserved.
+
           </p>
 
           {/* <div className="flex items-center gap-2 text-muted-foreground">

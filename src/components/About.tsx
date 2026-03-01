@@ -101,27 +101,15 @@ const About = () => {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I’m a Full-Stack Developer with 1 year of hands-on experience building fast, scalable, and responsive web applications using React.js, Node.js, Express, MongoDB, and PostgreSQL/MySQL. I specialize in creating secure RESTful APIs, implementing modern frontend interfaces, and managing full deployment pipelines using tools like Docker and Git.
-            </p>
+              I’m a product-focused operator with experience leading 0→1 execution, user research, KPI structuring and growth experimentation. My work focuses on identifying operational inefficiencies, translating them into structured product strategies, and driving measurable outcomes — from adoption growth to cost optimization.
+
+              </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              My skill set spans both frontend and backend development, with a strong focus on clean code, smooth user experiences, and animation-driven UI using libraries like Framer Motion. I'm passionate about solving real-world problems with practical, efficient, and user-centered solutions.
+              I specialize in problem framing, experiment design, metrics definition, and cross-functional execution across product, logistics and marketing teams.
             </p>
 
-            <div className="flex flex-wrap gap-4 pt-4">
-              <div className="glass px-4 py-2 rounded-lg">
-                <span className="text-primary-glow font-medium">1</span>
-                <span className="text-muted-foreground ml-1">Years Experience</span>
-              </div>
-              <div className="glass px-4 py-2 rounded-lg">
-                <span className="text-secondary-glow font-medium">3+</span>
-                <span className="text-muted-foreground ml-1">Projects Completed</span>
-              </div>
-              <div className="glass px-4 py-2 rounded-lg">
-                <span className="text-accent-glow font-medium">100%</span>
-                <span className="text-muted-foreground ml-1">Client Satisfaction</span>
-              </div>
-            </div>
+            
           </div>
         </div>
 

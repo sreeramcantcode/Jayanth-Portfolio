@@ -94,7 +94,7 @@ const Contact = () => {
           </h2>
           <div className="w-20 h-1 bg-gradient-primary rounded-full mx-auto mb-6" />
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Have a project in mind or just want to say hello? Drop me a message and let's create something amazing together.
+            Have a product idea in mind or just want to connect? Feel free to drop a message — always open to a meaningful conversation.
           </p>
         </div>
 
@@ -135,9 +135,8 @@ const Contact = () => {
                 Let's Connect
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                I'm always excited to work on new projects and collaborate with amazing people.
-                Whether you have a specific project in mind or just want to explore possibilities,
-                I'd love to hear from you.
+                I’m always interested in thoughtful product conversations and new opportunities to collaborate. Whether you have a specific idea in mind or simply want to exchange perspectives, I’d be glad to hear from you.
+
               </p>
             </div>
 
@@ -148,7 +147,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-foreground font-medium">Email</p>
-                  <p className="text-muted-foreground">codezenithhq@gmail.com</p>
+                  <p className="text-muted-foreground"> jayanthallumolu@gmail.com</p>
                 </div>
               </div>
 
@@ -158,7 +157,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-foreground font-medium">Phone</p>
-                  <p className="text-muted-foreground">+91 9999999999</p>
+                  <p className="text-muted-foreground">+91 7207815313</p>
                 </div>
               </div>
 
@@ -168,7 +167,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-foreground font-medium">Location</p>
-                  <p className="text-muted-foreground">New York City, New York</p>
+                  <p className="text-muted-foreground">Hyderabad , India</p>
                 </div>
               </div>
             </div>
@@ -176,10 +175,10 @@ const Contact = () => {
             <div>
               <h4 className="text-lg font-medium text-foreground mb-4">Follow Me</h4>
               <div className="flex gap-4">
-                <a href="#" className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center hover:shadow-glow-primary transition-all duration-300 hover:scale-110">
+                <a href="" className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center hover:shadow-glow-primary transition-all duration-300 hover:scale-110">
                   <GithubLogo size={20} className="text-primary-foreground" />
                 </a>
-                <a href="#" className="w-12 h-12 bg-gradient-secondary rounded-lg flex items-center justify-center hover:shadow-glow-secondary transition-all duration-300 hover:scale-110">
+                <a target="_blank" href="https://www.linkedin.com/in/asaijayanth" className="w-12 h-12 bg-gradient-secondary rounded-lg flex items-center justify-center hover:shadow-glow-secondary transition-all duration-300 hover:scale-110">
                   <LinkedinLogo size={20} className="text-secondary-foreground" />
                 </a>
               </div>
