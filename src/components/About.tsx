@@ -1,7 +1,20 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Globe, Code, Lightning, Rocket, Heart, Database, GitBranch, Cube, Terminal, Cloud } from 'phosphor-react';
+import {
+  GlobeHemisphereWest,
+  BracketsCurly,
+  TreeStructure,
+  Star,
+  TrendUp,
+  Cube,
+  Calculator,
+  UsersThree,
+  UserFocus,
+  FlowArrow,
+  Robot,
+  ChartLine
+} from  'phosphor-react';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -12,18 +25,18 @@ const About = () => {
   const skillsRef = useRef<HTMLDivElement>(null);
 
   const skills = [
-    { icon: Globe, name: 'Product Strategy', level: 95 },
-    { icon: Code, name: 'JavaScript', level: 90 },
-    { icon: Code, name: 'React/Redux', level: 95 },
-    { icon: Lightning, name: 'Tailwind CSS', level: 91 },
-    { icon: Cube, name: 'Bootstrap', level: 91 },
-    { icon: Rocket, name: 'Next.js', level: 85 },
-    { icon: Heart, name: 'UI/UX Design', level: 87 },
-    { icon: Terminal, name: 'Node.js/Express.js', level: 87 },
-    { icon: Database, name: 'MongoDB', level: 87 },
-    { icon: Database, name: 'PostgreSQL', level: 87 },
-    { icon: GitBranch, name: 'Git', level: 89 },
-    { icon: Cube, name: 'GitHub', level: 83 },
+    { icon: GlobeHemisphereWest, name: 'Product Strategy', level: 95 },
+    { icon: BracketsCurly, name: ' Problem Framing', level: 88 },
+    { icon: TreeStructure, name: ' KPI Tree Structuring', level: 87 },
+    { icon: Star, name: 'North Star Metric Design', level: 85 },
+    { icon: TrendUp, name: 'Adoption Growth Strategy', level: 85 },
+    { icon: Cube, name: 'Cost Optimization Strategy ', level: 83 },
+    { icon: Calculator, name: 'Unit Economics Thinking ', level: 87 },
+    { icon:  UsersThree , name: 'User Segmentation', level: 84 },
+    { icon: UserFocus, name: 'User Research', level: 87 },
+    { icon: FlowArrow, name: 'n8n Workflow Automation', level: 78},
+    { icon:  Robot, name: 'Automation Agent Design', level: 75 },
+    { icon:  ChartLine, name: 'Metric Design', level: 85 }
     
   ];
 
